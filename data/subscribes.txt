@@ -1,6 +1,13 @@
-https://fanrr.cc/api/v1/client/subscribe?token=b99ac011ff0acb76156977f4e7792b93
-https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=a1a667b3c498ae06af5b3f484b568971
 https://dash.bigcow.cc/api/v1/client/subscribe?token=95a73efbf6f4e82e6cecfc896fb36987
-https://wuyouyun.lat/api/v1/client/subscribe?token=d09a298514ca0048459dace43827217a
-https://dashuai.us/api/v1/client/subscribe?token=ed81f2beba49e33cc2f05e00cac0faf7
 https://lanmaoyun.icu/api/v1/client/subscribe?token=965ba51ea91be1f710487b308425fd9a
+https://www.strongswans.net/api/v1/client/subscribe?token=4db70dd4cd2f10ae139942c3450392e3
+https://wuyouyun.lat/api/v1/client/subscribe?token=0c773c97026125c764ed1d9c98a2c98c
+https://dashuai.us/api/v1/client/subscribe?token=ed81f2beba49e33cc2f05e00cac0faf7
+https://dashuai.us/api/v1/client/subscribe?token=5573e45a2102855f7174d7ca279c157c
+https://wuyouyun.lat/api/v1/client/subscribe?token=d09a298514ca0048459dace43827217a
+https://lanmaoyun.icu/api/v1/client/subscribe?token=bfe868495a01d61691ba93d1021bcbe3
+https://dash.bigcow.cc/api/v1/client/subscribe?token=d120fa1643a3c7e381461efd6cfadb33
+https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=a1a667b3c498ae06af5b3f484b568971
+https://fanrr.cc/api/v1/client/subscribe?token=b99ac011ff0acb76156977f4e7792b93
+https://qingyun.zybs.eu.org/api/v1/client/subscribe?token=54d785f66aeb4bf0e62fec3f171dde2a
+https://fanrr.cc/api/v1/client/subscribe?token=6cb9d938f3f2c5d5655d71002acb95c4

@@ -1,128 +1,263 @@
 proxies:
-  - {name: 朝鲜-03, server: szcm01_20240509.qingqiu.buzz, port: 50164, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 加拿大1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港-06, server: nbcm01.qingqiu.buzz, port: 10945, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: HONGKONG-1, server: genshin.wowfan.cyou, port: 38020, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 英国-05, server: sdcu_20240509.qingqiu.buzz, port: 33142, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国-07, server: sdcu_20240509.qingqiu.buzz, port: 27132, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 美国-05, server: szcm01_20240509.qingqiu.buzz, port: 27072, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 法国-03, server: nbcm01.qingqiu.buzz, port: 46680, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: HONGKONG-6, server: neverlose.wowfan.cyou, port: 38025, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 韩国-02, server: video.111365.xyz, port: 14328, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: HONGKONG-10 | IEPL, server: nevernever.wowfan.cyou, port: 38131, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 日本-06, server: nbcm01.qingqiu.buzz, port: 29032, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 朝鲜-04, server: nbcm01.qingqiu.buzz, port: 30713, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 日本-05, server: szcm01_20240509.qingqiu.buzz, port: 45853, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 德国-03, server: nbcm01.qingqiu.buzz, port: 14525, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 阿联酋-04, server: nbcm01.qingqiu.buzz, port: 52793, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HONGKONG-15 | IEPL, server: fanrrr.wowfan.cyou, port: 48021, type: ss, cipher: aes-128-gcm, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: JAPAN-4, server: x1angwanyuanshen.wowfan.cyou, port: 38031, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 欧洲-法兰克福-1, server: oracle-arm-frankfurt1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: frankfurt1.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本-02, server: video.111365.xyz, port: 16741, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 澳大利亚-03, server: szcm01_20240509.qingqiu.buzz, port: 31093, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 孟加拉-02, server: video.111365.xyz, port: 16423, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 英国1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 香港NO.1-GPT, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 免费节点-JP02, server: free-big.themars.top, port: 50108, type: ss, cipher: chacha20-ietf-poly1305, password: 50c2434a-51a9-46f1-8e36-28611180219f, udp: true}
-  - {name: 香港-05, server: szcm01_20240509.qingqiu.buzz, port: 34846, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 免费节点-US02, server: free-big.themars.top, port: 50110, type: ss, cipher: chacha20-ietf-poly1305, password: 50c2434a-51a9-46f1-8e36-28611180219f, udp: true}
-  - {name: 免费节点-JP01, server: free-big.themars.top, port: 50107, type: ss, cipher: chacha20-ietf-poly1305, password: 50c2434a-51a9-46f1-8e36-28611180219f, udp: true}
-  - {name: 美国1, server: haa.dashuai.cyou, port: 45070, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国-2, server: oracle-arm-chuncheon2.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 台湾1-GPT, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HONGKONG-7, server: neverwin.wowfan.cyou, port: 38050, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 澳门-1, server: aimware.wowfan.cyou, port: 38250, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 土耳其-1, server: vacgo.wowfan.cyou, port: 38057, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 马来西亚, server: nsfw.wowfan.cyou, port: 38921, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: HONGKONG-13 | IEPL, server: fanrr.wowfan.cyou, port: 38134, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: HONGKONG-14 | IEPL, server: fanrrr.wowfan.cyou, port: 38135, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 台湾-02, server: video.111365.xyz, port: 10812, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: TAIWAN-4, server: aimwar3.wowfan.cyou, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 台湾2-GPT, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 加拿大-魁北克, server: en7.iepl.run, port: 38900, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: SINGAPORE-3, server: quest.wowfan.cyou, port: 38013, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 香港, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 法国-04, server: szcm01_20240509.qingqiu.buzz, port: 29514, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 巴基斯坦-03, server: szcm01_20240509.qingqiu.buzz, port: 60734, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 香港-07, server: sdcu_20240509.qingqiu.buzz, port: 28206, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 马来西亚-04, server: nbcm01.qingqiu.buzz, port: 49699, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 马来西亚-03, server: szcm01_20240509.qingqiu.buzz, port: 39414, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 尼日利亚-04, server: nbcm01.qingqiu.buzz, port: 58138, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 免费节点-SG01, server: free-big.themars.top, port: 50105, type: ss, cipher: chacha20-ietf-poly1305, password: 50c2434a-51a9-46f1-8e36-28611180219f, udp: true}
-  - {name: 日本-1, server: oracle-amd-tokyo1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: tokyo.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 尼日利亚-03, server: szcm01_20240509.qingqiu.buzz, port: 58731, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: TAIWAN-3, server: a1mwar3.wowfan.cyou, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 孟加拉-03, server: szcm01_20240509.qingqiu.buzz, port: 56252, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 澳门NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 朝鲜-02, server: video.111365.xyz, port: 15544, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 英国电信家宽-伦敦, server: ukjk.wowfan.cyou, port: 38188, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: HONGKONG-3, server: robertsspaceindustries.wowfan.cyou, port: 38022, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: HONGKONG-4, server: sk33t.wowfan.cyou, port: 38023, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 美国-06, server: nbcm01.qingqiu.buzz, port: 34074, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 印度-02, server: video.111365.xyz, port: 10890, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: JAPAN-5, server: x1angwanyuanshen.wowfan.cyou, port: 38032, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 俄罗斯-02, server: video.111365.xyz, port: 16844, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: TAIWAN-2, server: onetap.wowfan.cyou, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: UNITEDSTATES-2, server: index.wowfan.cyou, port: 38016, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 欧洲-伦敦-1, server: oracle-arm-london1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: london1.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: HONGKONG-9 | IEPL, server: pso2ngs.wowfan.cyou, port: 38130, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 韩国-05, server: sdcu_20240509.qingqiu.buzz, port: 54574, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 英国-02, server: video.111365.xyz, port: 16239, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 美国-02, server: video.111365.xyz, port: 12758, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 台湾-07, server: sdcu_20240509.qingqiu.buzz, port: 39756, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 印度尼西亚-03, server: szcm01_20240509.qingqiu.buzz, port: 47361, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: SINGAPORE-4 | IEPL, server: x1aonanniang.wowfan.cyou, port: 38014, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 新加坡-05, server: szcm01_20240509.qingqiu.buzz, port: 41000, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 俄罗斯-03, server: szcm01_20240509.qingqiu.buzz, port: 22124, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 免费节点-US01, server: free-big.themars.top, port: 50109, type: ss, cipher: chacha20-ietf-poly1305, password: 50c2434a-51a9-46f1-8e36-28611180219f, udp: true}
-  - {name: 阿联酋-02, server: video.111365.xyz, port: 10117, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: HONGKONG-11 | IEPL, server: wowfan.wowfan.cyou, port: 38132, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: UNITEDSTATES-3, server: mamehinata.wowfan.cyou, port: 38017, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: UNITEDSTATES-4, server: maya.wowfan.cyou, port: 58018, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 俄罗斯-04, server: nbcm01.qingqiu.buzz, port: 13203, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 英国-1, server: whatcanisay.wowfan.cyou, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: HONGKONG-5, server: rainbowsix.wowfan.cyou, port: 38124, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 日本-07, server: sdcu_20240509.qingqiu.buzz, port: 59806, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 新加坡-02, server: video.111365.xyz, port: 18622, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 印度-04, server: nbcm01.qingqiu.buzz, port: 49615, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: HONGKONG-8, server: admin.wowfan.cyou, port: 38029, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: HONGKONG-2, server: mihoyo.wowfan.cyou, port: 38021, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: HONGKONG-17-GAME | UDPN, server: fanrrrr.wowfan.cyou, port: 48023, type: ss, cipher: aes-128-gcm, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 波兰-1, server: hvhbbs.wowfan.cyou, port: 38081, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: KOREA-1, server: kobebryant.wowfan.cyou, port: 38083, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 孟加拉-04, server: nbcm01.qingqiu.buzz, port: 53106, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: SINGAPORE-1, server: polaris.wowfan.cyou, port: 38011, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 印度尼西亚-04, server: nbcm01.qingqiu.buzz, port: 46204, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 韩国-04, server: nbcm01.qingqiu.buzz, port: 61284, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 尼日利亚-02, server: video.111365.xyz, port: 14555, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: JAPAN-2, server: midnight.wowfan.cyou, port: 38083, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 澳大利亚-02, server: video.111365.xyz, port: 17538, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 韩国-首尔, server: oracle-arm-seoul1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 印度尼西亚-02, server: video.111365.xyz, port: 17748, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 法国-02, server: video.111365.xyz, port: 14753, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 马来西亚-02, server: video.111365.xyz, port: 13480, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 台湾-06, server: nbcm01.qingqiu.buzz, port: 61327, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 美国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 韩国-03, server: szcm01_20240509.qingqiu.buzz, port: 14188, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 泰国-02, server: video.111365.xyz, port: 13406, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 日本-2, server: oracle-amd-osaka1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: osaka.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 阿联酋-03, server: szcm01_20240509.qingqiu.buzz, port: 26637, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: JAPAN-3, server: m4mesense.wowfan.cyou, port: 38027, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 香港-02, server: video.111365.xyz, port: 14658, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 韩国-1, server: oracle-arm-chuncheon1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: HONGKONG-12 | IEPL, server: fanr.wowfan.cyou, port: 38133, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: UNITEDSTATES-1, server: pico.wowfan.cyou, port: 38015, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 新加坡-1, server: oracle-amd-singapore1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: main.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
-  - {name: 英国2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 德国-02, server: video.111365.xyz, port: 18091, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: HONGKONG-16-GAME | UDPN, server: fanrrrr.wowfan.cyou, port: 48022, type: ss, cipher: aes-128-gcm, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
-  - {name: 巴基斯坦-02, server: video.111365.xyz, port: 17086, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
-  - {name: 北美-US-圣何塞-2, server: oracle-amd-san-jose2.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: san-jose2.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 孟加拉-03-1A, server: szcm01_20240509.qingqiu.buzz, port: 56252, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 英国1-1A, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚-02-1A, server: video.111365.xyz, port: 17538, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 德国-03-1A, server: nbcm01.qingqiu.buzz, port: 14525, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: SINGAPORE-3-1A, server: quest.wowfan.cyou, port: 38013, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: HONGKONG-15 | IEPL-1B, server: fanrrr.wowfan.cyou, port: 48021, type: ss, cipher: aes-128-gcm, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 日本-06-1A, server: nbcm01.qingqiu.buzz, port: 29032, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 印度尼西亚-03-1B, server: szcm01_20240509.qingqiu.buzz, port: 47361, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 泰国-02-1B, server: video.111365.xyz, port: 13406, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 澳大利亚原生1-1A, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港-02-1B, server: video.111365.xyz, port: 14658, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: HONGKONG-16-GAME | UDPN-1A, server: fanrrrr.wowfan.cyou, port: 48022, type: ss, cipher: aes-128-gcm, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 英国1-1B, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡NO.1-1B, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 印度2-1A, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿联酋-03-1B, server: szcm01_20240509.qingqiu.buzz, port: 26637, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 阿联酋-02-1A, server: video.111365.xyz, port: 10117, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 韩国-首尔-1A, server: oracle-arm-seoul1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 马来西亚-03-1B, server: szcm01_20240509.qingqiu.buzz, port: 39414, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 阿联酋-03-1A, server: szcm01_20240509.qingqiu.buzz, port: 26637, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: HONGKONG-13 | IEPL-1B, server: fanrr.wowfan.cyou, port: 38134, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 尼日利亚-04-1B, server: nbcm01.qingqiu.buzz, port: 58138, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: HONGKONG-5-1A, server: rainbowsix.wowfan.cyou, port: 38124, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: JAPAN-5-1A, server: x1angwanyuanshen.wowfan.cyou, port: 38032, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 欧洲-法兰克福-1-1A, server: oracle-arm-frankfurt1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: frankfurt1.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 法国-03-1B, server: nbcm01.qingqiu.buzz, port: 46680, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 尼日利亚-04-1A, server: nbcm01.qingqiu.buzz, port: 58138, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 加拿大2-1A, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国, server: vip.kbcloud.club, port: 11000, type: trojan, password: d5458abf-4425-44e6-af06-0463ecfb305a, skip-cert-verify: true, udp: true}
+  - {name: UNITEDSTATES-2-1A, server: index.wowfan.cyou, port: 38016, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: UNITEDSTATES-2-1B, server: index.wowfan.cyou, port: 38016, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 新加坡-1-1A, server: oracle-amd-singapore1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: main.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: SINGAPORE-4 | IEPL-1A, server: x1aonanniang.wowfan.cyou, port: 38014, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 比利时-布鲁塞尔-1A, server: bilibili.wowfan.cyou, port: 38133, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 德国-02-1B, server: video.111365.xyz, port: 18091, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 澳大利亚-03-1B, server: szcm01_20240509.qingqiu.buzz, port: 31093, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 巴基斯坦-03-1A, server: szcm01_20240509.qingqiu.buzz, port: 60734, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 印度1-1B, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 马来西亚-04-1B, server: nbcm01.qingqiu.buzz, port: 49699, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: HONGKONG-14 | IEPL-1A, server: fanrrr.wowfan.cyou, port: 38135, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: SINGAPORE-1-1A, server: polaris.wowfan.cyou, port: 38011, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 新加坡-1-1B, server: oracle-amd-singapore1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 1ba21389-697e-4a8f-9018-30efe1e34fac, auth: 1ba21389-697e-4a8f-9018-30efe1e34fac, sni: main.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 香港-1A, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: UNITEDSTATES-4-1B, server: maya.wowfan.cyou, port: 58018, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 印度2-1B, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HONGKONG-9 | IEPL-1B, server: pso2ngs.wowfan.cyou, port: 38130, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 加拿大, server: vip.kbcloud.club, port: 11004, type: trojan, password: d5458abf-4425-44e6-af06-0463ecfb305a, skip-cert-verify: true, udp: true}
+  - {name: HONGKONG-15 | IEPL-1A, server: fanrrr.wowfan.cyou, port: 48021, type: ss, cipher: aes-128-gcm, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 欧洲-伦敦-1-1B, server: oracle-arm-london1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 1ba21389-697e-4a8f-9018-30efe1e34fac, auth: 1ba21389-697e-4a8f-9018-30efe1e34fac, sni: london1.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: UNITEDSTATES-4-1A, server: maya.wowfan.cyou, port: 58018, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: HONGKONG-10 | IEPL-1B, server: nevernever.wowfan.cyou, port: 38131, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 香港NO.1-1A-GPT, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本NO.1-1B, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: JAPAN-2-1B, server: midnight.wowfan.cyou, port: 38083, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 泰国-03-1A, server: szcm01_20240509.qingqiu.buzz, port: 56988, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 韩国-1-1B, server: oracle-arm-chuncheon1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 1ba21389-697e-4a8f-9018-30efe1e34fac, auth: 1ba21389-697e-4a8f-9018-30efe1e34fac, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 朝鲜-04-1A, server: nbcm01.qingqiu.buzz, port: 30713, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 台湾1-1B-GPT, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 孟加拉-04-1A, server: nbcm01.qingqiu.buzz, port: 53106, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 英国-05-1A, server: sdcu_20240509.qingqiu.buzz, port: 33142, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 印度尼西亚-02-1B, server: video.111365.xyz, port: 17748, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: HONGKONG-16-GAME | UDPN-1B, server: fanrrrr.wowfan.cyou, port: 48022, type: ss, cipher: aes-128-gcm, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 香港-07-1B, server: sdcu_20240509.qingqiu.buzz, port: 28206, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 印度尼西亚-04-1B, server: nbcm01.qingqiu.buzz, port: 46204, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 尼日利亚-03-1A, server: szcm01_20240509.qingqiu.buzz, port: 58731, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 美国-05-1A, server: szcm01_20240509.qingqiu.buzz, port: 27072, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 土耳其-1-1B, server: vacgo.wowfan.cyou, port: 38057, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 日本, server: vip.kbcloud.club, port: 11001, type: trojan, password: d5458abf-4425-44e6-af06-0463ecfb305a, skip-cert-verify: true, udp: true}
+  - {name: 德国-1-1B, server: ado1fhit1er.wowfan.cyou, port: 38080, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 澳门-1-1A, server: aimware.wowfan.cyou, port: 38250, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: HONGKONG-1-1A, server: genshin.wowfan.cyou, port: 38020, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: SINGAPORE-1-1B, server: polaris.wowfan.cyou, port: 38011, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: UNITEDSTATES-3-1A, server: mamehinata.wowfan.cyou, port: 38017, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 俄罗斯-04-1A, server: nbcm01.qingqiu.buzz, port: 13203, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: JAPAN-2-1A, server: midnight.wowfan.cyou, port: 38083, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 印度尼西亚-03-1A, server: szcm01_20240509.qingqiu.buzz, port: 47361, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 新加坡NO.2-1A, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-05-1B, server: szcm01_20240509.qingqiu.buzz, port: 27072, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 日本-06-1B, server: nbcm01.qingqiu.buzz, port: 29032, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 台湾2-1A-GPT, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大1-1B, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 澳大利亚, server: vip.kbcloud.club, port: 11005, type: trojan, password: d5458abf-4425-44e6-af06-0463ecfb305a, skip-cert-verify: true, udp: true}
+  - {name: 日本-2-1B, server: oracle-amd-osaka1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 1ba21389-697e-4a8f-9018-30efe1e34fac, auth: 1ba21389-697e-4a8f-9018-30efe1e34fac, sni: osaka.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 日本NO.2-1A, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 波兰-2-弗罗茨瓦夫-1B, server: polansb.wowfan.cyou, port: 38211, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: SINGAPORE-3-1B, server: quest.wowfan.cyou, port: 38013, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: KOREA-1-1B, server: kobebryant.wowfan.cyou, port: 38083, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: JAPAN-1-1A, server: n2xware.wowfan.cyou, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 巴基斯坦-02-1B, server: video.111365.xyz, port: 17086, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: HONGKONG-3-1B, server: robertsspaceindustries.wowfan.cyou, port: 38022, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 孟加拉-02-1B, server: video.111365.xyz, port: 16423, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: JAPAN-1-1B, server: n2xware.wowfan.cyou, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: HONGKONG-13 | IEPL-1A, server: fanrr.wowfan.cyou, port: 38134, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 台湾1-1A-GPT, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港NO.1-1B-GPT, server: haa.dashuai.cyou, port: 45050, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-06-1B, server: nbcm01.qingqiu.buzz, port: 34074, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 香港-05-1A, server: szcm01_20240509.qingqiu.buzz, port: 34846, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 菲律宾, server: vip.kbcloud.club, port: 11013, type: ss, cipher: chacha20-ietf-poly1305, password: d5458abf-4425-44e6-af06-0463ecfb305a, udp: true}
+  - {name: 美国1-1A, server: haa.dashuai.cyou, port: 45070, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: TAIWAN-4-1A, server: aimwar3.wowfan.cyou, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 巴基斯坦-03-1B, server: szcm01_20240509.qingqiu.buzz, port: 60734, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 免费节点-JP02-1B, server: free-big.themars.top, port: 50108, type: ss, cipher: chacha20-ietf-poly1305, password: 04e965d4-72fa-42e5-a219-5771a79d4832, udp: true}
+  - {name: 泰国-04-1B, server: nbcm01.qingqiu.buzz, port: 63644, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 免费节点-JP02-1A, server: free-big.themars.top, port: 50108, type: ss, cipher: chacha20-ietf-poly1305, password: 50c2434a-51a9-46f1-8e36-28611180219f, udp: true}
+  - {name: 台湾-07-1A, server: sdcu_20240509.qingqiu.buzz, port: 39756, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: HONGKONG-14 | IEPL-1B, server: fanrrr.wowfan.cyou, port: 38135, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 德国-02-1A, server: video.111365.xyz, port: 18091, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 韩国-2-1A, server: oracle-arm-chuncheon2.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 韩国-02-1A, server: video.111365.xyz, port: 14328, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 美国-07-1A, server: sdcu_20240509.qingqiu.buzz, port: 27132, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 印度-02-1B, server: video.111365.xyz, port: 10890, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 马来西亚-04-1A, server: nbcm01.qingqiu.buzz, port: 49699, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 日本-05-1A, server: szcm01_20240509.qingqiu.buzz, port: 45853, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: HONGKONG-6-1A, server: neverlose.wowfan.cyou, port: 38025, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 孟加拉-04-1B, server: nbcm01.qingqiu.buzz, port: 53106, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 俄罗斯-02-1B, server: video.111365.xyz, port: 16844, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 美国2-1A, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 泰国-04-1A, server: nbcm01.qingqiu.buzz, port: 63644, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 澳门-1-1B, server: aimware.wowfan.cyou, port: 38250, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 印度-04-1A, server: nbcm01.qingqiu.buzz, port: 49615, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 英国-1-1B, server: whatcanisay.wowfan.cyou, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 巴基斯坦-02-1A, server: video.111365.xyz, port: 17086, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 新加坡-05-1B, server: szcm01_20240509.qingqiu.buzz, port: 41000, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: HONGKONG-2-1A, server: mihoyo.wowfan.cyou, port: 38021, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 法国-04-1B, server: szcm01_20240509.qingqiu.buzz, port: 29514, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 免费节点-SG02-1A, server: free-big.themars.top, port: 50106, type: ss, cipher: chacha20-ietf-poly1305, password: 50c2434a-51a9-46f1-8e36-28611180219f, udp: true}
+  - {name: 香港-07-1A, server: sdcu_20240509.qingqiu.buzz, port: 28206, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: HONGKONG-7-1A, server: neverwin.wowfan.cyou, port: 38050, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: HONGKONG-9 | IEPL-1A, server: pso2ngs.wowfan.cyou, port: 38130, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 朝鲜-04-1B, server: nbcm01.qingqiu.buzz, port: 30713, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 香港-05-1B, server: szcm01_20240509.qingqiu.buzz, port: 34846, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 韩国-1-1A, server: oracle-arm-chuncheon1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 印度尼西亚-04-1A, server: nbcm01.qingqiu.buzz, port: 46204, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 日本-1-1A, server: oracle-amd-tokyo1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: tokyo.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: HONGKONG-4-1A, server: sk33t.wowfan.cyou, port: 38023, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 俄罗斯-03-1A, server: szcm01_20240509.qingqiu.buzz, port: 22124, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 澳大利亚-02-1B, server: video.111365.xyz, port: 17538, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 孟加拉-03-1B, server: szcm01_20240509.qingqiu.buzz, port: 56252, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 免费节点-US02-1A, server: free-big.themars.top, port: 50110, type: ss, cipher: chacha20-ietf-poly1305, password: 50c2434a-51a9-46f1-8e36-28611180219f, udp: true}
+  - {name: 台湾-02-1A, server: video.111365.xyz, port: 10812, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 法国-02-1B, server: video.111365.xyz, port: 14753, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: SINGAPORE-4 | IEPL-1B, server: x1aonanniang.wowfan.cyou, port: 38014, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 阿联酋-04-1A, server: nbcm01.qingqiu.buzz, port: 52793, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: JAPAN-3-1A, server: m4mesense.wowfan.cyou, port: 38027, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 日本NO.1-1A, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: HONGKONG-5-1B, server: rainbowsix.wowfan.cyou, port: 38124, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 日本-07-1A, server: sdcu_20240509.qingqiu.buzz, port: 59806, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 英国-02-1B, server: video.111365.xyz, port: 16239, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 澳大利亚-03-1A, server: szcm01_20240509.qingqiu.buzz, port: 31093, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: HONGKONG-11 | IEPL-1B, server: wowfan.wowfan.cyou, port: 38132, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 韩国-02-1B, server: video.111365.xyz, port: 14328, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 英国2-1B, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 巴基斯坦-04-1A, server: nbcm01.qingqiu.buzz, port: 31254, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 尼日利亚-02-1A, server: video.111365.xyz, port: 14555, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 韩国-2-1B, server: oracle-arm-chuncheon2.lanmaoyun.icu, port: 30001, type: hysteria2, password: 1ba21389-697e-4a8f-9018-30efe1e34fac, auth: 1ba21389-697e-4a8f-9018-30efe1e34fac, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 阿联酋-02-1B, server: video.111365.xyz, port: 10117, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 韩国-首尔-1B, server: oracle-arm-seoul1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 1ba21389-697e-4a8f-9018-30efe1e34fac, auth: 1ba21389-697e-4a8f-9018-30efe1e34fac, sni: korea.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: HONGKONG-17-GAME | UDPN-1A, server: fanrrrr.wowfan.cyou, port: 48023, type: ss, cipher: aes-128-gcm, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 澳门NO.2-1B, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 加拿大-魁北克-1B, server: en7.iepl.run, port: 38900, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 泰国-03-1B, server: szcm01_20240509.qingqiu.buzz, port: 56988, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: HONGKONG-11 | IEPL-1A, server: wowfan.wowfan.cyou, port: 38132, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 泰国-02-1A, server: video.111365.xyz, port: 13406, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 台湾-02-1B, server: video.111365.xyz, port: 10812, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 台湾-06-1B, server: nbcm01.qingqiu.buzz, port: 61327, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 欧洲-伦敦-1-1A, server: oracle-arm-london1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: london1.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 印度-02-1A, server: video.111365.xyz, port: 10890, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 香港-06-1A, server: nbcm01.qingqiu.buzz, port: 10945, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 英国-05-1B, server: sdcu_20240509.qingqiu.buzz, port: 33142, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: HONGKONG-6-1B, server: neverlose.wowfan.cyou, port: 38025, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 印度1-1A, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 马来西亚-1B, server: nsfw.wowfan.cyou, port: 38921, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: HONGKONG-12 | IEPL-1A, server: fanr.wowfan.cyou, port: 38133, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 日本-1-1B, server: oracle-amd-tokyo1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 1ba21389-697e-4a8f-9018-30efe1e34fac, auth: 1ba21389-697e-4a8f-9018-30efe1e34fac, sni: tokyo.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 孟加拉-02-1A, server: video.111365.xyz, port: 16423, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 波兰-1-1A, server: hvhbbs.wowfan.cyou, port: 38081, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 德国-1-1A, server: ado1fhit1er.wowfan.cyou, port: 38080, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 免费节点-SG02-1B, server: free-big.themars.top, port: 50106, type: ss, cipher: chacha20-ietf-poly1305, password: 04e965d4-72fa-42e5-a219-5771a79d4832, udp: true}
+  - {name: HONGKONG-3-1A, server: robertsspaceindustries.wowfan.cyou, port: 38022, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 免费节点-SG01-1B, server: free-big.themars.top, port: 50105, type: ss, cipher: chacha20-ietf-poly1305, password: 04e965d4-72fa-42e5-a219-5771a79d4832, udp: true}
+  - {name: 加拿大-魁北克-1A, server: en7.iepl.run, port: 38900, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 韩国-05-1A, server: sdcu_20240509.qingqiu.buzz, port: 54574, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: HONGKONG-2-1B, server: mihoyo.wowfan.cyou, port: 38021, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 台湾-06-1A, server: nbcm01.qingqiu.buzz, port: 61327, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 波兰-2-弗罗茨瓦夫-1A, server: polansb.wowfan.cyou, port: 38211, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: JAPAN-5-1B, server: x1angwanyuanshen.wowfan.cyou, port: 38032, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: UNITEDSTATES-3-1B, server: mamehinata.wowfan.cyou, port: 38017, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: HONGKONG-4-1B, server: sk33t.wowfan.cyou, port: 38023, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: HONGKONG-10 | IEPL-1A, server: nevernever.wowfan.cyou, port: 38131, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 香港-06-1B, server: nbcm01.qingqiu.buzz, port: 10945, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 印度-04-1B, server: nbcm01.qingqiu.buzz, port: 49615, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 加拿大2-1B, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国-03-1B, server: nbcm01.qingqiu.buzz, port: 14525, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 俄罗斯-03-1B, server: szcm01_20240509.qingqiu.buzz, port: 22124, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 韩国-04-1A, server: nbcm01.qingqiu.buzz, port: 61284, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 欧洲-法兰克福-1-1B, server: oracle-arm-frankfurt1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 1ba21389-697e-4a8f-9018-30efe1e34fac, auth: 1ba21389-697e-4a8f-9018-30efe1e34fac, sni: frankfurt1.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 日本NO.2-1B, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本-07-1B, server: sdcu_20240509.qingqiu.buzz, port: 59806, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 免费节点-US01-1B, server: free-big.themars.top, port: 50109, type: ss, cipher: chacha20-ietf-poly1305, password: 04e965d4-72fa-42e5-a219-5771a79d4832, udp: true}
+  - {name: HONGKONG-8-1B, server: admin.wowfan.cyou, port: 38029, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 加拿大1-1A, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡-02-1A, server: video.111365.xyz, port: 18622, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 日本-2-1A, server: oracle-amd-osaka1.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: osaka.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: HONGKONG-1-1B, server: genshin.wowfan.cyou, port: 38020, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 尼日利亚-03-1B, server: szcm01_20240509.qingqiu.buzz, port: 58731, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: HONGKONG-7-1B, server: neverwin.wowfan.cyou, port: 38050, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 英国2-1A, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 韩国-04-1B, server: nbcm01.qingqiu.buzz, port: 61284, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 韩国-05-1B, server: sdcu_20240509.qingqiu.buzz, port: 54574, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: JAPAN-3-1B, server: m4mesense.wowfan.cyou, port: 38027, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 韩国-03-1A, server: szcm01_20240509.qingqiu.buzz, port: 14188, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 北美-US-圣何塞-2-1B, server: oracle-amd-san-jose2.lanmaoyun.icu, port: 30001, type: hysteria2, password: 1ba21389-697e-4a8f-9018-30efe1e34fac, auth: 1ba21389-697e-4a8f-9018-30efe1e34fac, sni: san-jose2.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 澳门, server: vip.kbcloud.club, port: 11015, type: ss, cipher: chacha20-ietf-poly1305, password: d5458abf-4425-44e6-af06-0463ecfb305a, udp: true}
+  - {name: 美国-02-1A, server: video.111365.xyz, port: 12758, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 澳门NO.2-1A, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾2-1B-GPT, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 免费节点-JP01-1A, server: free-big.themars.top, port: 50107, type: ss, cipher: chacha20-ietf-poly1305, password: 50c2434a-51a9-46f1-8e36-28611180219f, udp: true}
+  - {name: 俄罗斯-04-1B, server: nbcm01.qingqiu.buzz, port: 13203, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: TAIWAN-2-1A, server: onetap.wowfan.cyou, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: HONGKONG-12 | IEPL-1B, server: fanr.wowfan.cyou, port: 38133, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 马来西亚-1A, server: nsfw.wowfan.cyou, port: 38921, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 新加坡-05-1A, server: szcm01_20240509.qingqiu.buzz, port: 41000, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: TAIWAN-2-1B, server: onetap.wowfan.cyou, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 免费节点-JP01-1B, server: free-big.themars.top, port: 50107, type: ss, cipher: chacha20-ietf-poly1305, password: 04e965d4-72fa-42e5-a219-5771a79d4832, udp: true}
+  - {name: 比利时-布鲁塞尔-1B, server: bilibili.wowfan.cyou, port: 38133, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 法国-04-1A, server: szcm01_20240509.qingqiu.buzz, port: 29514, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 澳大利亚原生1-1B, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 俄罗斯-02-1A, server: video.111365.xyz, port: 16844, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 美国1-1B, server: haa.dashuai.cyou, port: 45070, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 日本-05-1B, server: szcm01_20240509.qingqiu.buzz, port: 45853, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 新加坡NO.1-1A, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: d44b7185-e9be-486b-a4eb-9d38ba10c21f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 香港-1C, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 阿联酋-04-1B, server: nbcm01.qingqiu.buzz, port: 52793, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: HONGKONG-17-GAME | UDPN-1B, server: fanrrrr.wowfan.cyou, port: 48023, type: ss, cipher: aes-128-gcm, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 英国-02-1A, server: video.111365.xyz, port: 16239, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 香港-02-1A, server: video.111365.xyz, port: 14658, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 巴基斯坦-04-1B, server: nbcm01.qingqiu.buzz, port: 31254, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 美国-02-1B, server: video.111365.xyz, port: 12758, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 马来西亚-02-1B, server: video.111365.xyz, port: 13480, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 英国电信家宽-伦敦-1B, server: ukjk.wowfan.cyou, port: 38188, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 免费节点-US02-1B, server: free-big.themars.top, port: 50110, type: ss, cipher: chacha20-ietf-poly1305, password: 04e965d4-72fa-42e5-a219-5771a79d4832, udp: true}
+  - {name: 法国-03-1A, server: nbcm01.qingqiu.buzz, port: 46680, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 朝鲜-03-1B, server: szcm01_20240509.qingqiu.buzz, port: 50164, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 美国2-1B, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 马来西亚-03-1A, server: szcm01_20240509.qingqiu.buzz, port: 39414, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 朝鲜-02-1A, server: video.111365.xyz, port: 15544, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 北美-US-圣何塞-2-1A, server: oracle-amd-san-jose2.lanmaoyun.icu, port: 30001, type: hysteria2, password: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, auth: 79ae4dac-a4b0-4472-8f22-c800e0fdf884, sni: san-jose2.nodes.lanmaoyun.icu, skip-cert-verify: true, udp: true}
+  - {name: 英国-1-1A, server: whatcanisay.wowfan.cyou, port: 38003, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 英国-UK, server: vip.kbcloud.club, port: 11006, type: trojan, password: d5458abf-4425-44e6-af06-0463ecfb305a, skip-cert-verify: true, udp: true}
+  - {name: 免费节点-US01-1A, server: free-big.themars.top, port: 50109, type: ss, cipher: chacha20-ietf-poly1305, password: 50c2434a-51a9-46f1-8e36-28611180219f, udp: true}
+  - {name: 台湾-07-1B, server: sdcu_20240509.qingqiu.buzz, port: 39756, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 尼日利亚-02-1B, server: video.111365.xyz, port: 14555, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 新加坡, server: vip.kbcloud.club, port: 11003, type: trojan, password: d5458abf-4425-44e6-af06-0463ecfb305a, skip-cert-verify: true, udp: true}
+  - {name: 韩国-03-1B, server: szcm01_20240509.qingqiu.buzz, port: 14188, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 新加坡NO.2-1B, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 814a3f60-93c8-44a5-ba69-5285caac5afe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国-07-1B, server: sdcu_20240509.qingqiu.buzz, port: 27132, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: TAIWAN-4-1B, server: aimwar3.wowfan.cyou, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
+  - {name: 新加坡-02-1B, server: video.111365.xyz, port: 18622, type: ss, cipher: aes-128-gcm, password: fbfd1a85-9a5a-4647-904e-91600a7dbd9e, udp: true}
+  - {name: 美国-06-1A, server: nbcm01.qingqiu.buzz, port: 34074, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: HONGKONG-8-1A, server: admin.wowfan.cyou, port: 38029, type: ss, cipher: chacha20-ietf-poly1305, password: 01041121-5691-477c-89d1-1776860f1822, udp: true}
+  - {name: 印度尼西亚-02-1A, server: video.111365.xyz, port: 17748, type: ss, cipher: aes-128-gcm, password: d06241f0-d88f-4247-8ccb-fb03a0ddfcb0, udp: true}
+  - {name: 波兰-1-1B, server: hvhbbs.wowfan.cyou, port: 38081, type: ss, cipher: chacha20-ietf-poly1305, password: 0d1b183a-e93d-421c-909a-f225668f0eb8, udp: true}
